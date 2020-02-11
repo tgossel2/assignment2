@@ -1,0 +1,34 @@
+ <style>
+        h1,h2 {
+            color: rgb(255, 2, 0);
+            font-family: fantasy;
+            font-weight: 69
+                
+        }
+    </style>
+
+nav a {
+    color: deeppink
+}
+
+a:hover {
+    color:deeppink
+}
+
+@media screen and (max-width: 50rm) {
+    header,
+    main,
+    footer,
+    form p {
+        flex-direction: column;
+    }
+    form input, textarea {
+        margin: 2px 0;
+    }
+    .hero-text {
+        flex:none;
+    }
+    form select{
+        margin: 0;
+    }
+}
