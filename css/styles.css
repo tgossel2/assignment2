@@ -1,34 +1,62 @@
- <style>
-        h1,h2 {
-            color: rgb(255, 2, 0);
-            font-family: fantasy;
-            font-weight: 69
-                
-        }
-    </style>
+ h1,
+ h2 {
+     color: rgb(255, 2, 0);
+     font-family: fantasy;
+     font-weight:100;
+ }
 
-nav a {
-    color: deeppink
-}
+ nav a {
+     color: deeppink
+ }
 
-a:hover {
-    color:deeppink
-}
+ a:hover {
+     color: deeppink
+ }
 
-@media screen and (max-width: 50rm) {
-    header,
-    main,
-    footer,
-    form p {
-        flex-direction: column;
-    }
-    form input, textarea {
-        margin: 2px 0;
-    }
-    .hero-text {
-        flex:none;
-    }
-    form select{
-        margin: 0;
-    }
-}
+ @media screen and (max-width: 50em) {
+
+     header,
+     main,
+     footer,
+     form p {
+         flex-direction: column;
+     }
+
+     form input,
+     textarea {
+         margin: 2px 0;
+     }
+
+     .hero-text {
+         flex: none;
+     }
+
+     form select {
+         margin: 0;
+     }
+ }
+
+ #myspecialstyle {
+     Font-size: 1.8em;
+     border: 7px solid red;
+     padding-bottom: 15px;
+     padding-top: 15px;
+     padding-left: 15px;
+     border-radius: 15px;
+     
+     
+         
+ }
+
+
+ .myspecialstyle {
+     Font-size: 1.8em;
+     border: 7px solid red;
+     padding-bottom: 15px;
+     padding-top: 15px;
+     padding-left: 15px;
+     border-radius: 15px;
+     
+     
+         
+ }
