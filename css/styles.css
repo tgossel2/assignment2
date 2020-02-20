@@ -1,16 +1,28 @@
  h1,
  h2 {
-     color: rgb(255, 2, 0);
+     color: sandybrown;
+     box-sizing: border-box;
+     margin: 0;
      font-family: fantasy;
-     font-weight:100;
+     font-weight: 100;
  }
 
+ body {
+     background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),url("../images/Finalbackground.jpg");*/;
+/*     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url("../images/Finalbackground.jpg");*/
+     background-size: cover;
+     background-position: center;
+     min-height: 100vh;
+  
+ 
+}
+
  nav a {
-     color: deeppink
+     color: sandybrown
  }
 
  a:hover {
-     color: deeppink
+     color: blue
  }
 
  @media screen and (max-width: 50em) {
@@ -38,25 +50,33 @@
 
  #myspecialstyle {
      Font-size: 1.8em;
-     border: 7px solid red;
+     border: 7px solid black;
      padding-bottom: 15px;
      padding-top: 15px;
      padding-left: 15px;
      border-radius: 15px;
-     
-     
-         
+
+
+
+
  }
 
 
  .myspecialstyle {
      Font-size: 1.8em;
-     border: 7px solid red;
+     border: 7px solid black;
      padding-bottom: 15px;
      padding-top: 15px;
      padding-left: 15px;
      border-radius: 15px;
-     
-     
-         
+     margin-left: auto;
+     margin-right: auto;
+
+     padding: 15px 15px 15px 15px;
+
+     margin: 15px 15px 15px 15px;
+
+
+
+
  }
