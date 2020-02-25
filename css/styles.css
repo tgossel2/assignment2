@@ -80,3 +80,20 @@
 
 
  }
+
+.pics img {
+padding: 1em;
+    margin: 1em;
+    height: auto;
+    Width: 150px;
+    Margin: 0;
+    overflow: hidden;
+    Opacity: 0.7;
+    transform: scale(1.15);
+    transition: transform 0.5s, opacity 0.5s;
+}
+.pics img:hover {
+    opacity: 1;
+    transform: scale(1.03);
+    
+}
